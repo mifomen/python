@@ -1,3 +1,5 @@
-print('Сколько сантиметров в l ? ')
+print('Skolko santimetrov v L')
 l=int(input())
-print('Всего столько метров ', l // 100)
+print('Vsego bydet stlko metrov ', l // 100 )
+
+
