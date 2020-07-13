@@ -1,8 +1,9 @@
-a = int(input())
-b = int(input())
-c = int(input())
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
 
-if a<b<c:
-    print(a+c)
-if b<a<c:
-    print(b+c)
+if a<b: min = a
+else: min = b
+if c<min: min = c
+s = a+b+c-min
+print("Сумма 2 наибольших =",s)
